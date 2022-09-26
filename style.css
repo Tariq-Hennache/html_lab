@@ -2,11 +2,16 @@ body {
     background-color: blueviolet;
 }
 
-header div {
+header {
     display: flex;
     background-color: burlywood;
     justify-content: space-between;
-    margin-left: 0px;
+    margin-left: 0px; 
+}
+
+header nav {
+    display: flex;
+    align-self:center ;
 }
 
 header nav {
@@ -74,8 +79,24 @@ main h2 {
 
 
 main p {
-    background-color: green;
     width: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    
+}
+
+.footer__left {
+    display: flex;
+    align-items:flex-start;
+}
+
+footer [type=text]{
+    height: 100px;
+    width: 100%
 }
 
 
