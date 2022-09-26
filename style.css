@@ -1,0 +1,83 @@
+body {
+    background-color: blueviolet;
+}
+
+header div {
+    display: flex;
+    background-color: burlywood;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+.Movies {
+    display: grid;
+    order: 0
+}
+ .Movies1 {
+    display: grid;
+    order: -1;
+ }
+
+ .Movies2 {
+    display: grid;
+    order: -1;
+ }
+
+ .Movies3 {
+    display: grid;
+    order: -1;
+ }
+ .Movies4 {
+    display: grid;
+    order: -1;
+ }
+ .Movies5 {
+    display: grid;
+    order: -1;
+ }
+ .Movies6 {
+    display: grid;
+    order: -1;
+ }
+
+ 
+
+
+/* main {
+    
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+
+} */
+
+main h2 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* main div.Movies {
+    width: 50%;
+    margin-right: 50px;
+    display: flex;
+    flex-flow: row wrap;   
+} */
+ main
+
+
+
+
+main p {
+    background-color: green;
+    width: 50%;
+}
+
+
+
+
